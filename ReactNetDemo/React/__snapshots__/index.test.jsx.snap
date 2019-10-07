@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index tests should render 1`] = `
+<Fragment>
+  <div
+    className="blue-text"
+  >
+    Hello, world! I am a CommentBox.....!!
+  </div>
+  <img
+    alt=""
+    src="/images/dog-paw.svg"
+  />
+  <img
+    alt=""
+    src="/images/400x300.png"
+  />
+</Fragment>
+`;

@@ -1,0 +1,17 @@
+@page
+@using React.AspNet
+@using React.Router
+@model PrivacyModel
+@{
+  ViewData["Title"] = "Privacy Policy";
+}
+@section Styles{
+  <link href="@Url.Content("~/css/index.css")" rel="stylesheet" />
+}
+
+<h1>@ViewData["Title"]</h1>
+@Html.React("CommentBox", new { })
+
+@Html.ReactRouter("RouterExample", new { })
+
+@Html.ReactInitJavaScript()

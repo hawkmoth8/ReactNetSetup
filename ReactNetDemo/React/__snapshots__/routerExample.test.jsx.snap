@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`router example tests should render 1`] = `
+<BrowserRouter>
+  <ul>
+    <li>
+      <Link
+        to="/privacy"
+      >
+        privacy
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/page1"
+      >
+        page1
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/page2"
+      >
+        page2
+      </Link>
+    </li>
+  </ul>
+  <Switch>
+    <Route
+      exact={true}
+      path="/privacy"
+    >
+      <div>
+        this is privacy
+      </div>
+    </Route>
+    <Route
+      exact={true}
+      path="/page1"
+    >
+      <div>
+        this is page1
+      </div>
+    </Route>
+    <Route
+      exact={true}
+      path="/page2"
+    >
+      <div>
+        this is page2
+      </div>
+    </Route>
+  </Switch>
+</BrowserRouter>
+`;

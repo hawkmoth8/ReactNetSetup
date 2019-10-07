@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["eslint:recommended", "airbnb"],
+  "globals": {
+    "React": "readonly",
+    "shallow": "readonly",
+    "render": "readonly",
+    "mount": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "implicit-arrow-linebreak": "off",
+    "indent": ["error", 2],
+    "jsx-a11y/click-events-have-key-events": "off",
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "quotes": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-danger": "off",
+    "react/prefer-stateless-function": "off",
+    "semi": ["error", "always"]
+  }
+}
